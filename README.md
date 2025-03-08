@@ -141,6 +141,7 @@ aerial_image_seg/
 │   ├── splits/           # Split CSVs (train_split.csv, val_split.csv, test_split.csv)
 │   └── train.csv         # Original mapping of images to masks
 ├── scripts/              # Shell and Python scripts for tasks
+│   ├── download_data.py
 │   ├── split_data.py
 │   ├── train.py
 │   ├── validate.py
