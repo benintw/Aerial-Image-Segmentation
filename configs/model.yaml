@@ -1,0 +1,5 @@
+encoder: "timm-efficientnet-b0"
+weights: "imagenet"
+in_channels: 3
+classes: 1
+activation: null

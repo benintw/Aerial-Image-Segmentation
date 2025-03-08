@@ -1,0 +1,10 @@
+model: RoadSegModel
+input_dir: data/test_images
+output_dir: predictions/
+split_dir: data/splits
+batch_size: 1
+num_workers: 4
+pin_memory: true
+persistent_workers: true
+prefetch_factor: 2
+run_id: inference_001
